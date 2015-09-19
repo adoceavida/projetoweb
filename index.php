@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>:: Adoce a Vida - Bolos & Doces Caseiros ::</title>
     </head>
     <body>
         <?php
