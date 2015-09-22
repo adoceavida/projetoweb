@@ -39,7 +39,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li id="menuHome" class="teste"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Home">Home</a></li>
+                    <li id="menuHome" class="menu"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Home">Home</a></li>
                     <li id="menuSobreNos"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Sobre Nós">Sobre Nós</a></li>
                     <li id="menuBolosDoces"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Bolos & Doces">Bolos & Doces</a></li>
                     <li id="menuLocalizacao"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Localização">Localização</a></li>
