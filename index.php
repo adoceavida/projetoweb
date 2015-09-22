@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>:: Adoce a Vida - Bolos & Doces Caseiros ::</title>
+        <title>Adoce a Vida - Bolos & Doces Caseiros</title>
         
-        <link rel="icon" href="../../favicon.ico">
+        <link rel="icon" href="images/FavIcon.ico">
         
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
@@ -29,17 +29,25 @@
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Adoce a Vida</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#" title="Logo"><img alt="Logo" src="..."></a>
+                  <a class="navbar-brand" href="#" title="Adoce a Vida - Bolos & Doces Caseiros"><img alt="Adoce a Vida - Bolos & Doces Caseiros" src="images/Logo.png"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <div class="row">
+                      <div class="col-lg-10"></div>
+                      <div class="col-lg-2">
+                          <a href="#"><span class="fa fa-bookmark bookmark"></span></a>
+                          <a href="#"><span class="fa fa-envelope envelope"></span></a>
+                          <a href="#"><span class="fa fa-facebook-official facebook"></span></a>
+                          <a href="#"><span class="fa fa-whatsapp whatsapp"></span></a>
+                      </div>
+                  </div>
+                  <br/>
+                  <br/>
                   <ul class="nav navbar-nav navbar-right">
-                    <li id="menuHome" class="menu"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Home">Home</a></li>
+                    <li id="menuHome"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Home">Home</a></li>
                     <li id="menuSobreNos"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Sobre Nós">Sobre Nós</a></li>
                     <li id="menuBolosDoces"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Bolos & Doces">Bolos & Doces</a></li>
                     <li id="menuLocalizacao"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Localização">Localização</a></li>
@@ -49,35 +57,30 @@
           </div><!-- /.container-fluid -->
         </nav>
         
+
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
         
-        ksjdlkasjd
-        sadasd
-        asd
-        sad
-        sad
-        sd
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
         
         <script src="js/jquery-1.11.3.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>

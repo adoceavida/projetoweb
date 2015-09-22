@@ -1,4 +1,20 @@
-.testein {
-    border-top-style: solid;
-    border-bottom-style: solid;
+body {
+    background-color: #663300;
+}
+.bookmark {
+    color: #FEE781;
+    padding-right: 10px;
+}
+.envelope {
+    color: #FEE781;
+    padding-right: 10px;
+
+}
+.facebook {
+    color: #FEE781;
+    padding-right: 10px;
+}
+.whatsapp {
+    color: #FEE781;
+    padding-right: 10px;
 }

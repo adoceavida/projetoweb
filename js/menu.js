@@ -1,42 +1,34 @@
 $(function () {
     $('#menuHome').mouseover(function(){
-        $('#menuHome').css("background-color", "#CCCCCC");
-        $('#menuHome').css("border-top-style", "solid");
-        $('#menuHome').css("border-bottom-style", "solid");
-        $('#menuHome').css("color", "white");
-        $('#menuHome').css("text-shadow", "1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue");
+        $('#menuHome').css("background-color", "#663300");
     });
     $('#menuHome').mouseout(function(){
         $('#menuHome').css("background-color", "");
-        $('#menuHome').css("border-top-style", "");
-        $('#menuHome').css("border-bottom-style", "");
-        $('#menuHome').css("color", "");
-        $('#menuHome').css("text-shadow", "");
     });
     
     $('#menuSobreNos').mouseover(function(){
-        $('#menuSobreNos').css("background-color", "#CCCCCC");
+        $('#menuSobreNos').css("background-color", "#663300");
     });
     $('#menuSobreNos').mouseout(function(){
         $('#menuSobreNos').css("background-color", "");
     });
     
     $('#menuBolosDoces').mouseover(function(){
-        $('#menuBolosDoces').css("background-color", "#CCCCCC");
+        $('#menuBolosDoces').css("background-color", "#663300");
     });
     $('#menuBolosDoces').mouseout(function(){
         $('#menuBolosDoces').css("background-color", "");
     });
     
     $('#menuLocalizacao').mouseover(function(){
-        $('#menuLocalizacao').css("background-color", "#CCCCCC");
+        $('#menuLocalizacao').css("background-color", "#663300");
     });
     $('#menuLocalizacao').mouseout(function(){
         $('#menuLocalizacao').css("background-color", "");
     });
     
     $('#menuContato').mouseover(function(){
-        $('#menuContato').css("background-color", "#CCCCCC");
+        $('#menuContato').css("background-color", "#663300");
     });
     $('#menuContato').mouseout(function(){
         $('#menuContato').css("background-color", "");
