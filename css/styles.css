@@ -18,3 +18,13 @@ body {
     color: #FEE781;
     padding-right: 10px;
 }
+.menu {
+    font-family: Verdana;
+    margin-right: 50px;
+}
+.menu-botao {
+    color: #FEE781 !important;
+}
+.cabecalho {
+    background-color: #401000 !important;
+}

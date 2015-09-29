@@ -1,11 +1,4 @@
-$(function () {
-    $('#menuHome').mouseover(function(){
-        $('#menuHome').css("background-color", "#663300");
-    });
-    $('#menuHome').mouseout(function(){
-        $('#menuHome').css("background-color", "");
-    });
-    
+$(function () {    
     $('#menuSobreNos').mouseover(function(){
         $('#menuSobreNos').css("background-color", "#663300");
     });
