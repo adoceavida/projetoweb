@@ -25,3 +25,7 @@ body {
 .menu-botao {
     color: #FEE781 !important;
 }
+.sub-menu {
+    text-align: right;
+    margin-right: 50px !important;
+}

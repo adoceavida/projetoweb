@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+        <title>Adoce a Vida - Bolos & Doces Caseiros</title>
+        
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Adoce a Vida - Bolos & Doces Caseiros</title>
+        <meta name="googlebot" content="noodp" />
+        <meta name="robots" content="index, follow" />
+    	<meta name="description" content="Adoce a Vida - Bolos e Doces Caseiros" />
+    	<meta name="keywords" content="" />
+    	<meta name="url" content="http://www.adoceavida.com.br" />
+   	<meta name="language" content="pt-br" />
+    	<meta name="reply-to" content="contato@adoceavida.com.br" />
+    	<meta name="copyright" content="Adoce a Vida - Bolos e Doces Caseiros" />
+    	<meta name="category" content="Internet" />
+    	<meta name="author" content="Alexandre Muehringer Alves" />
+        
+        <link rev="made" href="mailto:alexandre.muehringer@adoceavida.com.br" />
         
         <link rel="icon" href="images/FavIcon.ico">
         
@@ -37,13 +51,16 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div id="navbar" class="navbar-collapse collapse">
                   <div class="row">
-                      <div class="col-lg-10"></div>
-                      <div class="col-lg-2">
-                          <a href="#"><span class="fa fa-bookmark fa-lg bookmark"></span></a>
-                          <a href="#"><span class="fa fa-envelope fa-lg envelope"></span></a>
-                          <a href="#"><span class="fa fa-facebook-official fa-lg facebook"></span></a>
-                          <a href="#"><span class="fa fa-whatsapp fa-lg whatsapp"></span></a>
-                      </div>
+                      <div class="sub-menu">
+                          <div class="col-lg-10">
+                          </div>
+                          <div class="col-lg-2">                              
+                              <a href="#"><span class="fa fa-bookmark fa-lg bookmark"></span></a>
+                              <a href="#"><span class="fa fa-envelope fa-lg envelope"></span></a>
+                              <a href="#"><span class="fa fa-facebook-official fa-lg facebook"></span></a>
+                              <a href="#"><span class="fa fa-whatsapp fa-lg whatsapp"></span></a>
+                          </div>
+                        </div>
                   </div>
                   <ul class="nav navbar-nav navbar-right menu">
                     <li id="menuSobreNos"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Sobre Nós">Sobre Nós</a></li>
@@ -62,25 +79,28 @@
               <li data-target="#carouselHome" data-slide-to="1"></li>
               <li data-target="#carouselHome" data-slide-to="2"></li>
             </ol>
-            
+
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                  <img src="http://creativefan.com/files/2010/10/Dexter_Apple_Wallpaper_by_WhoIsScott-500x500.jpg" alt="teste"  width="500px">
+                <br /><br /><br /><br /><br />
+                <img src="images/CarouselApfelstrudel.png" alt="ApfelStrudel">
                 <div class="carousel-caption">
-                   teste
+                    <label>ApfelStrudel</label>
                 </div>
               </div>
               <div class="item">
-                  <img src="http://creativefan.com/files/2010/10/Dexter_Apple_Wallpaper_by_WhoIsScott-500x500.jpg" alt="..." width="500px">
+                <br /><br /><br /><br /><br />
+                <img src="images/CarouselBoloCenoura.png" alt="Bolo de Cenoura">
                 <div class="carousel-caption">
-                    teste1
+                    <label>Bolo de Cenoura</label>
                 </div>
               </div>
               <div class="item">
-                  <img src="http://creativefan.com/files/2010/10/Dexter_Apple_Wallpaper_by_WhoIsScott-500x500.jpg" alt="..." width="500px">
+                <br /><br /><br /><br /><br />
+                <img src="images/CarouselPudimLeite.png" alt="Pudim de Leite">
                 <div class="carousel-caption">
-                    teste2
+                    <label>Pudim de Leite</label>
                 </div>
               </div>
             </div>
@@ -95,6 +115,7 @@
               <span class="sr-only">Next</span>
             </a>
         </div>     
+
         
         <script src="js/jquery-1.11.3.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
