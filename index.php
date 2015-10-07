@@ -45,7 +45,7 @@
                     <span class="sr-only">Adoce a Vida</span>
                     <span class="fa fa-chevron-circle-down fa-3x menu-botao"></span>
                   </button>
-                  <a class="navbar-brand" href="#" title="Adoce a Vida - Bolos & Doces Caseiros"><img alt="Adoce a Vida - Bolos & Doces Caseiros" src="images/Logo.png"></a>
+                    <a class="navbar-brand" href="#" title="Adoce a Vida - Bolos & Doces Caseiros"><img alt="Adoce a Vida - Bolos & Doces Caseiros" src="images/Logo.png" /></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,18 +55,18 @@
                           <div class="col-lg-10">
                           </div>
                           <div class="col-lg-2">                              
-                              <a href="#"><span class="fa fa-bookmark fa-lg bookmark"></span></a>
-                              <a href="#"><span class="fa fa-envelope fa-lg envelope"></span></a>
-                              <a href="#"><span class="fa fa-facebook-official fa-lg facebook"></span></a>
-                              <a href="#"><span class="fa fa-whatsapp fa-lg whatsapp"></span></a>
+                              <a href="javascript:addbookmark();" data-toggle="tooltip" data-placement="top" title="Adicione aos Favoritos"><span class="fa fa-bookmark fa-lg bookmark"></span></a>
+                              <a href="mailto:contato@adoceavida.com.br" data-toggle="tooltip" data-placement="top" title="Envie E-Mail"><span class="fa fa-envelope fa-lg envelope"></span></a>
+                              <a href="https://www.facebook.com/Adoce-a-Vida-702975769846754/timeline/" data-toggle="tooltip" data-placement="top" title="Siga-nos pelo Facebook"><span class="fa fa-facebook-official fa-lg facebook"></span></a>
+                              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Envie Whatsapp, adicione o telefone (11) 98451-7934"><span class="fa fa-whatsapp fa-lg whatsapp"></span></a>
                           </div>
                         </div>
                   </div>
                   <ul class="nav navbar-nav navbar-right menu">
-                    <li id="menuSobreNos"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Sobre Nós">Sobre Nós</a></li>
-                    <li id="menuBolosDoces"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Bolos & Doces">Bolos & Doces</a></li>
-                    <li id="menuLocalizacao"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Localização">Localização</a></li>
-                    <li id="menuContato"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Contato">Contato</a></li>
+                    <li><a href="#link-sobre-nos" data-toggle="tooltip" data-placement="bottom" title="Sobre Nós">Sobre Nós</a></li>
+                    <li><a href="#link-bolos-doces" data-toggle="tooltip" data-placement="bottom" title="Bolos & Doces">Bolos & Doces</a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Localização">Localização</a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Contato">Contato</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -115,12 +115,77 @@
               <span class="sr-only">Next</span>
             </a>
         </div>     
+        
+        <div class="container-fluid body-background">
+            <div class="row">
+                <div id="link-sobre-nos" class="col-lg-12">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+                <div class="col-lg-12">
+                    <img alt="Sobre Nós" src="images/SobreNos.png" />
+                    <hr class="style-title">
+                    <p class="lead text-justify">A <label>Adoce a Vida</label> surgiu da vontade de seus idealizadores de oferecer bolos e doces caseiros com qualidade, mas sem deixar a essência de família, pois tudo é feito artesanalmente por uma de suas sócias. 
+                        Formada em Fonoaudiologia, sempre teve prazer em cozinhar e assim, após a maternidade decidiu se dedicar totalmente ao lar, deixando que o amor pela cozinha mantivesse as tradições da família, como o <label>ApfelStrudel</label>, 
+                        receita original Austríaca, passada de geração em geração.</p>
+                    <div class="alert alert-warning" role="alert">    
+                        <p class="lead">É esse amor à família e à cozinha que ela deseja oferecer aos seus clientes, em cada pedaço de suas guloseimas... </p>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <hr class="style-gradiente" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+                <div id="link-bolos-doces" class="col-lg-12">
+                    <img alt="Bolos & Doces" src="images/BolosEDoces.png" />
+                    <hr class="style-title">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <hr class="style-gradiente" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+        
 
+        <!-- Exemplo de botao e texto -->
+        <!--<a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+            <h2 >Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>-->
+                  
+        <footer>
+            <p class="pull-right"><a href="#"><span class="footer-topo">Ir para o topo</span></a></p>
+            <p>&nbsp; &copy; <span id="anoAtual"></span> Adoce a Vida - Bolos & Doces Caseiros</p>
+        </footer>
         
         <script src="js/jquery-1.11.3.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/bookmark.js" type="text/javascript"></script>
         <script src="js/tooltip.js" type="text/javascript"></script>
-        <script src="js/menu.js" type="text/javascript"></script>
+        <script src="js/yearnow.js" type="text/javascript"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="js/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
     </body>
